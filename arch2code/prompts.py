@@ -1,5 +1,5 @@
 block_system_prompt = """\
-You are a helpful AI assistant.
+You are a helpful senior System Design engineer specializing in Amazon Web Service architectures..
 Your task is to extract all the positional blocks or sections from a given AWS architecture diagram. The blocks are usually labeled with a number.
 Identify the main components and their relationships and the overall functionality of each block.
 
@@ -13,7 +13,7 @@ Your output should be a JSON object having information about all the blocks in t
 """
 
 connection_system_prompt = """\
-You are a helpful AI assistant.
+You are a helpful senior system design engineer specializing in Amazon Web Service architectures.
 Analyze the AWS architecture diagram and identify all connections between components.
 Here are the extracted blocks and their components:
 
